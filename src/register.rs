@@ -34,7 +34,6 @@ pub enum Register {
     DATAZ1	            = 0x37,
     FIFO_CTL	        = 0x38,
     FIFO_STATUS	        = 0x39
-    
 }
 
 impl Register {
