@@ -1,0 +1,1 @@
+/home/bigmeech/Projects/adxl375-rs/target/debug/libADXL375.rlib: /home/bigmeech/Projects/adxl375-rs/src/conf.rs /home/bigmeech/Projects/adxl375-rs/src/lib.rs /home/bigmeech/Projects/adxl375-rs/src/register.rs

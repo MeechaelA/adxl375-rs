@@ -1,0 +1,11 @@
+/home/bigmeech/Projects/adxl375-rs/target/debug/deps/generic_array-669a466d885bc264.rmeta: /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/lib.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/hex.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/impls.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/arr.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/functional.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/iter.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/sequence.rs
+
+/home/bigmeech/Projects/adxl375-rs/target/debug/deps/generic_array-669a466d885bc264.d: /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/lib.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/hex.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/impls.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/arr.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/functional.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/iter.rs /home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/sequence.rs
+
+/home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/lib.rs:
+/home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/hex.rs:
+/home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/impls.rs:
+/home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/arr.rs:
+/home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/functional.rs:
+/home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/iter.rs:
+/home/bigmeech/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.14.7/src/sequence.rs:

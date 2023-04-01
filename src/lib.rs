@@ -1,3 +1,5 @@
+#![allow(non_camel_case_types)]
+
 //! Adxl375 embedded-hal SPI driver crate
 //!
 //! A platform agnostic driver to interface with the Adxl375 Accelerometer.
@@ -122,22 +124,9 @@ where
         self.write_reg(Register::POWER_CTL.addr(), 0);
     }
 
-
-    /// Returns the raw contents of the temperature registers
-    pub fn read_temp_raw(&mut self) -> u16 {
-
-        let mut bytes = [(Register::TEMP2.addr() << 1)  | SPI_READ, 0, 0];
-        self.read(&mut bytes);
-
-        let temp_h = ((bytes[1] & 0x0F) as u16) << 8;
-        let temp_l = (bytes[2] as u16) & 0x00FF;
-
-        temp_h | temp_l
-    }
-
     /// Get the device ID
     pub fn get_device_id(&mut self) -> u8 {
-        let reg = Register::DEVID_AD.addr();
+        let reg = Register::DEVID.addr();
         let mut output = [1u8];
         self.read_reg(reg, &mut output);
         output[0]
@@ -177,7 +166,7 @@ where
     /// Returns a 3D vector with x,y,z, fields in a Result
     fn accel_raw(&mut self) -> Result<I32x3, Error<E>> {
         let mut bytes = [0u8; 9+1];
-        bytes[0] = (Register::XDATA3.addr() << 1)  | SPI_READ;
+        bytes[0] = (Register::DATAX0.addr() << 1)  | SPI_READ;
         self.read(&mut bytes);
 
         // combine 3 bytes into one i32 value
