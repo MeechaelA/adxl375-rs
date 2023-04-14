@@ -122,6 +122,7 @@ where
     /// Puts the device in `Measurement mode`. The defaut after power up is `Standby mode`.
     pub fn start(&mut self) {
         self.write_reg(Register::POWER_CTL.addr(), 0);
+        self.write_reg(Register::DATA_FORMAT.addr(), 0);
     }
 
     /// Get the device ID
