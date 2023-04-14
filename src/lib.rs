@@ -136,14 +136,14 @@ where
         output[0]
     }
 
-    fn write_reg(&mut self, reg: u8, value: u8) {
+    pub fn write_reg(&mut self, reg: u8, value: u8) {
         let mut bytes = [(reg << 1)  | SPI_WRITE, value];
         self.cs.set_low().ok();
         self.spi.write(&mut bytes).ok();
         self.cs.set_high().ok();
     }
 
-    fn read_reg(&mut self, reg: u8, buffer: &mut [u8]) {
+    pub fn read_reg(&mut self, reg: u8, buffer: &mut [u8]) {
         let mut bytes = [(reg << 1)  | SPI_READ, 0];
         self.cs.set_low().ok();
         self.spi.transfer(&mut bytes).ok();
@@ -151,7 +151,7 @@ where
         buffer[0] = bytes[1];
     }
 
-    fn read(&mut self, bytes: &mut [u8]) {
+    pub fn read(&mut self, bytes: &mut [u8]) {
         self.cs.set_low().ok();
         self.spi.transfer(bytes).ok();
         self.cs.set_high().ok();

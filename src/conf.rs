@@ -1,7 +1,7 @@
 #![allow(non_camel_case_types)]
 
 #[derive(Copy, Clone, Debug)]
-/// Output data rate (odr) and Low pass filter corner frequency (lpf)
+/// Output data rate (odr)
 pub enum ODR_LPF {
     ODR_3200_Hz     = 15,
     ODR_1600_Hz     = 14,
@@ -52,7 +52,7 @@ impl From<ODR_LPF> for f32 {
 
 impl Default for ODR_LPF {
     fn default() -> Self {
-        ODR_LPF::ODR_100_Hz
+        ODR_LPF::ODR_400_Hz
     }
 }
 
@@ -66,7 +66,7 @@ impl Config {
     // Creates a new configuration object with default values
     pub fn new() -> Self {
         Config {
-            odr: Some(ODR_LPF::ODR_100_Hz),
+            odr: Some(ODR_LPF::ODR_400_Hz),
         }
     }
 
