@@ -66,7 +66,7 @@ impl Config {
     // Creates a new configuration object with default values
     pub fn new() -> Self {
         Config {
-            odr: None,
+            odr: Some(ODR_LPF::ODR_100_Hz),
         }
     }
 

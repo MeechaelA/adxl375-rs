@@ -1,7 +1,7 @@
 //! ADXL355 register addresses
 #![allow(non_camel_case_types)]
 
-// See datasheet https://www.analog.com/media/en/technical-documentation/data-sheets/adxl354_355.pdf
+// See datasheet https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL375.PDF
 
 #[allow(dead_code)]
 #[repr(u8)]

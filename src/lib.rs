@@ -42,7 +42,7 @@
 //!
 //! - [Register Map][1]
 //!
-//! [1]: https://www.analog.com/media/en/technical-documentation/data-sheets/adxl354_355.pdf
+//! [1]: https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL375.PDF
 //!
 //! - [`embedded-hal`][2]
 //!
