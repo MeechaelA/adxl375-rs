@@ -3,22 +3,22 @@
 #[derive(Copy, Clone, Debug)]
 /// Output data rate (odr) and Low pass filter corner frequency (lpf)
 pub enum ODR_LPF {
-    ODR_3200_Hz     = 0,
-    ODR_1600_Hz     = 1,
-    ODR_800_Hz      = 2,
-    ODR_400_Hz      = 3,
-    ODR_200_Hz      = 4,
-    ODR_100_Hz      = 5,
-    ODR_50_Hz       = 6,
-    ODR_25_Hz       = 7,
-    ODR_12_5_Hz     = 8,
-    ODR_6_25_Hz     = 9,
-    ODR_3_13_Hz     = 10,
-    ODR_1_56_Hz     = 11,
-    ODR_0_78_Hz     = 12,
-    ODR_0_39_Hz     = 13,
-    ODR_0_20_Hz     = 14,
-    ODR_0_10_Hz     = 15
+    ODR_3200_Hz     = 15,
+    ODR_1600_Hz     = 14,
+    ODR_800_Hz      = 13,
+    ODR_400_Hz      = 12,
+    ODR_200_Hz      = 11,
+    ODR_100_Hz      = 10,
+    ODR_50_Hz       = 9,
+    ODR_25_Hz       = 8,
+    ODR_12_5_Hz     = 7,
+    ODR_6_25_Hz     = 6,
+    ODR_3_13_Hz     = 5,
+    ODR_1_56_Hz     = 4,
+    ODR_0_78_Hz     = 3,
+    ODR_0_39_Hz     = 2,
+    ODR_0_20_Hz     = 1,
+    ODR_0_10_Hz     = 0
 }
 
 impl ODR_LPF {
